@@ -2,4 +2,4 @@
 2. 연도별 컬럼 선별
 3. XGBOOST, CATBOOST, LIGHTGBM, TABNET 하이퍼파라미터 조절로 성능 체크(HyperOpt, Optuna와 같은 라이브러리 사용?)
 4. 학과명 형태소로 분리 후 stopword로 전처리하기 
-5. eval_metric 선정하기
+5. loss_function, eval_metric 선정하기 -> loss_function = MultiClassOneVsAll, eval_metric = Accuracy(F1-Macro랑 똑같음)
