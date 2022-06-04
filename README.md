@@ -25,7 +25,7 @@
 
 
 # Data Set
-<img src = "images/data set.png" width="80%"  >
+<img src = "images/data set.png" width="800"  >
 
 - 2017년 : 응답자수 9486 row, 질문 개수 156 column 
 - 2018년 : 응답자수 9072 row, 질문 개수 141 column
@@ -34,17 +34,22 @@
 
 
 **Features**
-- Likert 5점 척도 기반의 설문 + 주관식 답변 
+- Likert 5, 7점 척도 기반의 설문
+<img src = "images/5points.png" width="600"  >
+
+- 주관식 질문
+<img src = "images/textq.png" width="600"  >
+<img src = "images/texta.png" width="400"  >
 
 **Target** 
 - 약 600개의 직업코드 
-<img src = "images/targets.png" width="80%"  >
+<img src = "images/targets.png" width="400"  >
 
 
 
 # Model
 
-<img src = "images/exp results.png">
+<img src = "images/exp results.png" width="500">
 
 - Tabluar Data : Categorical Data가 많은 설문조사 데이터이기때문에 CatBoost 모델 사용
 - Text Data : Keyword 중심의 단어들이 많아 LSTM보다 1D-CNN 모델이 더 높은 성능을 보임
