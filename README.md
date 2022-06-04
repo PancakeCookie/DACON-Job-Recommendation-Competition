@@ -23,21 +23,24 @@
 
 # Data Set
 <img src = "images/data set.png">
+
 - 2017년 : 응답자수 9486 row, 질문 개수 156 column 
 - 2018년 : 응답자수 9072 row, 질문 개수 141 column
 - 2019년 : 응답자수 8555 row, 질문 개수 153 column
 - 2020년 : 응답자수 8122 row, 질문 개수 185 column
 
 
-**Feature: Likert 5점 척도 기반의 설문 + 주관식 답변** 
+**Features: Likert 5점 척도 기반의 설문 + 주관식 답변** 
 
-**Target: class 개수 약 600개**
+**Target: 약 600개의 직업 class**
 
 
 # Model
 
-<img src = "images/results.png">
-Tabluar Data -> 
+<img src = "images/exp results.png">
+
+- Tabluar Data : Categorical Data가 많은 설문조사 데이터이기때문에 CatBoost 모델 사용
+- Text Data : Keyword 중심의 단어들이 많아 LSTM보다 1D-CNN 모델이 더 높은 성능을 보임
 
 
 
