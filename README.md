@@ -23,17 +23,18 @@
 
 
 # 🗂 Data Set
-<img src = "images/data set.png" >
+<img src = "images/dataset.png" >
 
 - 전체 데이터셋 row 약 4만개, column 갯수 약 160개
 
-**Features**
+### Features
 - Likert 5, 7점 척도 기반의 설문
-<img src = "images/5points.png" >
+<img src = "images/5point2.png" >
 
 - 주관식 질문
-<img src = "images/text.png"   >
-**Target** 
+<img src = "images/text2.png"   >
+
+### Target 
 - 약 600개의 직업코드 
 <img src = "images/targets.png" >
 
@@ -41,7 +42,7 @@
 
 # 🧑‍💻Model
 
-<img src = "images/exp results.png">
+<img src = "images/result.png">
 
 - Tabluar Data : Categorical Data가 많은 설문조사 데이터이기때문에 CatBoost 모델 사용
 - Text Data : Keyword 중심의 단어들이 많아 LSTM보다 1D-CNN 모델이 더 높은 성능을 보임
