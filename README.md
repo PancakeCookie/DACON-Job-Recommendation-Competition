@@ -1,4 +1,4 @@
-# Introduction
+# 🔍Introduction
 <img src = "images/intro.png" >
 
 
@@ -19,12 +19,12 @@
 - Private Score : 전체 테스트 데이터 중 67%
 
 #### 최종 순위
-- 🎖 **3rd Prize** 
+### 🎖 3rd Prize
+<br/>
 
 
 
-
-# Data Set
+# 🗂 Data Set
 <img src = "images/data set.png" width="800"  >
 
 - 2017년 : 응답자수 9486 row, 질문 개수 156 column 
@@ -47,9 +47,9 @@
 
 
 
-# Model
+# 🧑‍💻Model
 
-<img src = "images/exp results.png" width="500">
+<img src = "images/exp results.png" width="700">
 
 - Tabluar Data : Categorical Data가 많은 설문조사 데이터이기때문에 CatBoost 모델 사용
 - Text Data : Keyword 중심의 단어들이 많아 LSTM보다 1D-CNN 모델이 더 높은 성능을 보임
