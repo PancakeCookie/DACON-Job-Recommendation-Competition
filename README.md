@@ -40,7 +40,6 @@
 - 주관식 질문
 <img src = "images/textq.png" width="600"  >
 <img src = "images/texta.png" width="400"  >
-
 **Target** 
 - 약 600개의 직업코드 
 <img src = "images/targets.png" width="400"  >
