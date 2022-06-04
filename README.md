@@ -1,5 +1,6 @@
 # Intro
-![image](https://user-images.githubusercontent.com/81530929/171980816-230f98ad-8572-4b0c-b9ca-6493c668652d.png)
+<img src = "https://user-images.githubusercontent.com/81530929/171980816-230f98ad-8572-4b0c-b9ca-6493c668652d.png" width="50%" height="50%">
+
 
 #### 배경
 - KNOW는 다양한 직업에 종사하고 있는 재직자에 대하여 직무관련 조사를 수행하고 있다. 
@@ -13,7 +14,7 @@
 
 
 #### 리더보드
-- 평가 Metric : Macro F1-score
+- Eval Metric : Macro F1-score
 - Public Score : 전체 테스트 데이터 중 33%
 - Private Score : 전체 테스트 데이터 중 67%
 
@@ -21,13 +22,22 @@
 - 🎖 **3rd**
 
 # Data Set
+<img src = "https://user-images.githubusercontent.com/81530929/171982431-ac1a61ea-3f2d-4528-88bb-88ef5395ac46.png" width="50%" height="50%">
+![image](https://user-images.githubusercontent.com/81530929/171982431-ac1a61ea-3f2d-4528-88bb-88ef5395ac46.png){: width="100" height="100"}
+- 2017년 : 응답자수 9486 row, 질문 개수 156 column 
+- 2018년 : 응답자수 9072 row, 질문 개수 141 column
+- 2019년 : 응답자수 8555 row, 질문 개수 153 column
+- 2020년 : 응답자수 8122 row, 질문 개수 185 column
 
-![image](https://user-images.githubusercontent.com/81530929/171982431-ac1a61ea-3f2d-4528-88bb-88ef5395ac46.png)
-- 2017년 : 응답자수 9486 row, 질문 갯수 156 column 
-- 2018년 : 응답자수 9072 row, 질문 갯수 141 column
-- 2019년 : 응답자수 8555 row, 질문 갯수 153 column
-- 2020년 : 응답자수 8122 row, 질문 갯수 185 column
-Target class Number 
+
+**Feature: Likert 5점 척도 기반의 설문 + 주관식 답변** 
+
+**Target: class 개수 약 600개**
+
+
+# Model
+Tabluar Data -> 
+
 
 
 
