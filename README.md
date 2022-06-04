@@ -1,5 +1,5 @@
 # Intro
-<img src = "https://user-images.githubusercontent.com/81530929/171980816-230f98ad-8572-4b0c-b9ca-6493c668652d.png" width="50%" height="50%">
+<img src = "images/intro.png" >
 
 
 #### 배경
@@ -22,8 +22,7 @@
 - 🎖 **3rd**
 
 # Data Set
-<img src = "https://user-images.githubusercontent.com/81530929/171982431-ac1a61ea-3f2d-4528-88bb-88ef5395ac46.png" width="50%" height="50%">
-![image](https://user-images.githubusercontent.com/81530929/171982431-ac1a61ea-3f2d-4528-88bb-88ef5395ac46.png){: width="100" height="100"}
+<img src = "images/data set.png">
 - 2017년 : 응답자수 9486 row, 질문 개수 156 column 
 - 2018년 : 응답자수 9072 row, 질문 개수 141 column
 - 2019년 : 응답자수 8555 row, 질문 개수 153 column
@@ -36,9 +35,9 @@
 
 
 # Model
+
+<img src = "images/results.png">
 Tabluar Data -> 
-
-
 
 
 
