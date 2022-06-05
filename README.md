@@ -31,6 +31,7 @@
 
 ### Target 
 - 약 600개의 직업코드 
+
 <img src = "images/targets.png" >
 
 <br/>
@@ -56,7 +57,7 @@ Categorical Feauture Combinations과 One-hot Encoding을 지원하는 CatBoost�
     train에 걸리는 시간을 1/7정도로 줄이고 F1-Score도 높임
     
 ### Ensemble
-CatBoost와 1D-CNN이 출력한 모든 클래스에 대한 확률값에 
+CatBoost와 1D-CNN이 출력한 모든 클래스 별 확률값에 
 Min-Max Scaler를 적용시킨 후 Soft-Voting
 
 <img src = "images/result.png">
