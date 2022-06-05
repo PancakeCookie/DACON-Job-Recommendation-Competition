@@ -70,6 +70,6 @@ Min-Max Scaler를 적용시킨 후 Soft-Voting
 https://github.com/PancakeCookie/Job-Recommendation-Website
 
 ### 뉴스 기사 분석
-일자리 증가, 감소, 
+일자리 증가, 감소, 유지
 
 
