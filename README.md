@@ -58,9 +58,18 @@
     train에 걸리는 시간을 1/7정도로 줄이고 F1-Score도 높임
     
 ### Ensemble
-catboost와 1d-cnn이 모든 클래스에 대한 확률값을 뱉은 후 
-이에 Min-Max Scaler를 적용시킨 후 SoftVoting
+CatBoost와 1D-CNN이 출력한 모든 클래스에 대한 확률값에 
+Min-Max Scaler를 적용시킨 후 Soft-Voting
 
 <img src = "images/result.png">
+
+<br/>
+
+# 데이터 활용
+### 취하자 - 직업 추천 웹사이트
+https://github.com/PancakeCookie/Job-Recommendation-Website
+
+### 뉴스 기사 분석
+일자리 증가, 감소, 
 
 
