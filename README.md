@@ -40,10 +40,12 @@
 ### Tabular Data
 설문조사 데이터는 Categorical Data가 많은 정형데이터이기때문에
 
-정형데이터 처리에 효과적인 Gradient Boosting 기반의 모델 중 CatBoost를 사용
+정형데이터 처리에 효과적인 Gradient Boosting 기반의 모델 중 
+
+Categorical Feauture Combinations과 One-hot Encoding을 지원하는 CatBoost를 사용
 
 ### Text Data
-직업의 특성이 드러나는 주관식 답변들을 한 문장으로 만든 후 KoNLPy의 Mecab 형태소 토크나이저를 이용
+직업의 특성이 드러나는 주관식 답변들을 한 문장으로 만든 후 KoNLPy의 Mecab 형태소 Tokenizer를 사용
 
 짧은 길이의 Keyword 중심 답변들이 많아 LSTM보다 1D-CNN 모델이 더 높은 성능을 보임
 
