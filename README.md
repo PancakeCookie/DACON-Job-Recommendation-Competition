@@ -69,6 +69,6 @@ Min-Max Scaler를 적용시킨 후 Soft-Voting
 https://github.com/PancakeCookie/Job-Recommendation-Website
 
 ### 뉴스 기사 분석
-일자리 증가, 감소, 유지
+기사의 제목을 입력으로 받아 일자리 증가, 감소, 유지 중 어느 것에 해당하는 기사인지 분류 
 
 
